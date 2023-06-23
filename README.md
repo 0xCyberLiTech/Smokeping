@@ -26,11 +26,11 @@ J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 
 Nous retrouverons nos fichiers de configuration vers :
 ```
 /etc/smokeping/config.d/
+                 ├───> General
                  ├───> Alerts
                  ├───> Database
-                 ├───> General
-                 ├───> pathnames
                  ├───> Presentation
+                 ├───> pathnames
                  ├───> Probes
                  ├───> Slaves
                  └───> Targets
@@ -78,6 +78,27 @@ syslogfacility = local0
 Mettez à jour l'adresse cgiurl. 
 (cgiurl = http://some.url/smokeping.cgi) par (cgiurl = http://192.168.0.200/smokeping.cgi).
 
+#### Fichier de configuration (Alerts).
+#### /etc/smokeping/config.d/Alerts
+```
+cat /etc/smokeping/config.d/Alerts
+
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Alerts
+# --------------------------------------------------------------------------
+*** Alerts ***
+to = alertee@address.somewhere
+from = smokealert@company.xy
+
++someloss
+type = loss
+# in percent
+pattern = >0%,*12*,>0%,*12*,>0%
+comment = loss 3 times  in a row
+```
 #### Fichier de configuration (Database).
 #### /etc/smokeping/config.d/Database
 ```
