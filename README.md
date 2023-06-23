@@ -1,7 +1,3 @@
-## A la découverte de SMOKEPING.
-
-![Nagios](./images/smokeping.png)
-
 ```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
@@ -10,6 +6,10 @@
 # Sujet : SMOKEPING
 # --------------------------------------------------------------------------
 ```
+## A la découverte de SMOKEPING.
+
+![Nagios](./images/smokeping.png)
+
 #### Présentation :
 
 SmokePing permet de mesurer et d'afficher sous forme graphique les temps de réponse aux ping, http, https,
