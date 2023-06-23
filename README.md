@@ -16,11 +16,20 @@ aux tests.
 Cet article se veut seulement être un moyen de mise en place rapide de cet outil et non un substitut à la
 documentation officielle.
 
-Installation des prérequis de SmokePing.
-
-Voici la liste de ces programmes :
-
-
+Installer et configurer SmokePing
+Mettre à jour l'index des packages.
+```
+apt-get update
+```
+Installez le package smokeping, mais ignorez les packages recommandés.
+```
+apt install --no-install-recommends smokeping dnsutils curl
+```
+Dans un premier temps, vérifiez les paramètres de la base de données car vous ne pourrez pas les modifier facilement par la suite. 
+J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 minutes.
+```
+cat /etc/smokeping/config.d/Database
+```
 
 
 
