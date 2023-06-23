@@ -1,12 +1,11 @@
 ## A la découverte de SMOKEPING.
-```
-# --------------------------------------------------------------------------
-# 0xCyberLiTech
-# Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
-# Sujet : SMOKEPING
-# --------------------------------------------------------------------------
-```
+--------------------------------------------------------------------------
+0xCyberLiTech
+Date de création : le 21-06-2023
+Date de modification : le 23-06-2023
+Sujet : SMOKEPING
+--------------------------------------------------------------------------
+
 #### Présentation :
 
 SmokePing permet de mesurer et d'afficher sous forme graphique les temps de réponse aux ping, http, https,
