@@ -58,6 +58,12 @@ cat /etc/smokeping/config
 ```
 cat /etc/smokeping/config.d/Database
 
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Database
+# --------------------------------------------------------------------------
 *** Database ***
 
 step     = 300
@@ -78,6 +84,12 @@ AVERAGE  0.5 144   720
 ```
 cat /etc/smokeping/config.d/General
 
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/General
+# --------------------------------------------------------------------------
 *** General ***
 
 owner    = CyberLiTech
@@ -103,6 +115,12 @@ Mettez à jour l'adresse cgiurl.
 ```
 cat /etc/smokeping/config.d/Probes
 
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Probes
+# --------------------------------------------------------------------------
 *** Probes ***
 
 + FPing
@@ -128,6 +146,12 @@ urlformat = http://%host%/
 ```
 cat /etc/smokeping/config.d/Database
 
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Targets
+# --------------------------------------------------------------------------
 *** Targets ***
 
 probe = FPing
@@ -215,7 +239,6 @@ menu = srv-linux-03
 title = HTTP Latency for server3 (port 8080!)
 host = 192.168.50.202
 urlformat = http://%host%:8080/
-
 ```
 
 Accéder à la console Smokeping :
