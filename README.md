@@ -28,7 +28,7 @@ apt install --no-install-recommends smokeping dnsutils curl
 ```
 Dans un premier temps, vérifiez les paramètres de la base de données car vous ne pourrez pas les modifier facilement par la suite. 
 J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 minutes.
-```
+
 Nous retrouverons nos fichiers de configuration vers :
 
 /etc/smokeping/config.d/
