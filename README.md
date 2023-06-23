@@ -91,7 +91,7 @@ Mettez à jour l'adresse cgiurl.
 (cgiurl = http://some.url/smokeping.cgi) par (cgiurl = http://192.168.0.200/smokeping.cgi).
 
 Accéder à la console Smokeping :
-http://192.168.50.200/smokeping/
+http://192.168.0.200/smokeping/
 
 
 
