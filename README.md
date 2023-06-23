@@ -1,4 +1,7 @@
 ## A la découverte de SMOKEPING.
+
+![Nagios](./images/smokeping.png)
+
 ```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
