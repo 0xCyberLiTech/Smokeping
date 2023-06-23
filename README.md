@@ -12,14 +12,12 @@
 
 #### Présentation :
 
-SmokePing permet de mesurer et d'afficher sous forme graphique les temps de réponse aux ping, http, https,
-smtp d'une machine ou d'un groupe de machines, et de déclencher des alertes si une machine ne répond pas
-aux tests.
+Surveiller sa latence réseau avec SmokePing
 
-Cet article se veut seulement être un moyen de mise en place rapide de cet outil et non un substitut à la
-documentation officielle.
+La bande passante n'est pas la seule caractéristique à prendre en compte dans la performance de vos réseau. En effet, certaines applications comme la voie sur IP ou les jeux en ligne sont très sensible à la latence et à sa variation. De nombreux outils permette de faire la supervision de ces mesures (on peut citer notamment Cacti). Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et léger permettant de mesurer et grapher un grand nombre de paramètres de votre réseau.
 
-Installer et configurer SmokePing
+Installer et configurer SmokePing.
+
 Mettre à jour l'index des packages.
 ```
 apt-get update
