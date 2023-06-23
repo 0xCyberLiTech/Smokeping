@@ -47,8 +47,7 @@ cat /etc/smokeping/config
 @include /etc/smokeping/config.d/Slaves
 @include /etc/smokeping/config.d/Targets
 ```
-- Fichier de configuration (General).
-/etc/smokeping/config.d/General
+- Fichier de configuration (/etc/smokeping/config.d/General).
 ```
 cat /etc/smokeping/config.d/General
 
@@ -78,8 +77,7 @@ syslogfacility = local0
 Mettez à jour l'adresse cgiurl. 
 (cgiurl = http://some.url/smokeping.cgi) par (cgiurl = http://192.168.0.200/smokeping.cgi).
 
-- Fichier de configuration (Alerts).
-/etc/smokeping/config.d/Alerts
+- Fichier de configuration, (/etc/smokeping/config.d/Alerts).
 ```
 cat /etc/smokeping/config.d/Alerts
 
@@ -99,8 +97,7 @@ type = loss
 pattern = >0%,*12*,>0%,*12*,>0%
 comment = loss 3 times  in a row
 ```
-- Fichier de configuration (Database).
-/etc/smokeping/config.d/Database
+- Fichier de configuration, (/etc/smokeping/config.d/Database).
 ```
 cat /etc/smokeping/config.d/Database
 
@@ -126,8 +123,7 @@ AVERAGE  0.5 144   720
     MIN  0.5 144   720
 ```
 
-- Fichier de configuration (Probes).
-/etc/smokeping/config.d/Probes
+- Fichier de configuration, (/etc/smokeping/config.d/Probes).
 ```
 cat /etc/smokeping/config.d/Probes
 
@@ -157,10 +153,9 @@ step = 60
 # a default for this target-specific variable
 urlformat = http://%host%/
 ```
-- Fichier de configuration (Targets).
-/etc/smokeping/config.d/Targets
+- Fichier de configuration, (/etc/smokeping/config.d/Targets).
 ```
-cat /etc/smokeping/config.d/Database
+cat /etc/smokeping/config.d/Targets
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
@@ -256,13 +251,5 @@ title = HTTP Latency for server3 (port 8080!)
 host = 192.168.50.202
 urlformat = http://%host%:8080/
 ```
-
 Accéder à la console Smokeping :
 http://192.168.0.200/smokeping/
-
-
-
-
-
-
-
