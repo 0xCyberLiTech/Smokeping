@@ -14,7 +14,7 @@ Installer et configurer SmokePing.
 
 Mettre à jour l'index des packages.
 ```
-apt-get update
+apt-get update && apt upgrade -y
 ```
 Installez le package smokeping, mais ignorez les packages recommandés.
 ```
