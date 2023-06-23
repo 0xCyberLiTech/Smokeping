@@ -47,32 +47,6 @@ cat /etc/smokeping/config
 @include /etc/smokeping/config.d/Slaves
 @include /etc/smokeping/config.d/Targets
 ```
-#### Fichier de configuration (Database).
-#### /etc/smokeping/config.d/Database
-```
-cat /etc/smokeping/config.d/Database
-
-# --------------------------------------------------------------------------
-# 0xCyberLiTech
-# Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
-# Sujet : SMOKEPING - /etc/smokeping/config.d/Database
-# --------------------------------------------------------------------------
-*** Database ***
-
-step     = 300
-pings    = 20
-
-# consfn mrhb steps total
-
-AVERAGE  0.5   1  1008
-AVERAGE  0.5  12  4320
-    MIN  0.5  12  4320
-    MAX  0.5  12  4320
-AVERAGE  0.5 144   720
-    MAX  0.5 144   720
-    MIN  0.5 144   720
-```
 #### Fichier de configuration (General).
 #### /etc/smokeping/config.d/General
 ```
@@ -103,6 +77,33 @@ syslogfacility = local0
 ```
 Mettez à jour l'adresse cgiurl. 
 (cgiurl = http://some.url/smokeping.cgi) par (cgiurl = http://192.168.0.200/smokeping.cgi).
+
+#### Fichier de configuration (Database).
+#### /etc/smokeping/config.d/Database
+```
+cat /etc/smokeping/config.d/Database
+
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 21-06-2023
+# Date de modification : le 23-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Database
+# --------------------------------------------------------------------------
+*** Database ***
+
+step     = 300
+pings    = 20
+
+# consfn mrhb steps total
+
+AVERAGE  0.5   1  1008
+AVERAGE  0.5  12  4320
+    MIN  0.5  12  4320
+    MAX  0.5  12  4320
+AVERAGE  0.5 144   720
+    MAX  0.5 144   720
+    MIN  0.5 144   720
+```
 
 #### Fichier de configuration (Probes).
 #### /etc/smokeping/config.d/Probes
