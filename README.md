@@ -32,7 +32,7 @@ J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 
 Nous retrouverons nos fichiers de configuration vers :
 
 /etc/smokeping/config.d/
-                     |
+
                      ├── Alerts
                      ├── Database
                      ├── General
