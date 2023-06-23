@@ -1,11 +1,3 @@
-```
-# --------------------------------------------------------------------------
-# 0xCyberLiTech
-# Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
-# Sujet : SMOKEPING
-# --------------------------------------------------------------------------
-```
 ## A la découverte de SMOKEPING.
 
 ![Nagios](./images/smokeping.png)
