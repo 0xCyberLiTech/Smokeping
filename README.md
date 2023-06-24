@@ -54,7 +54,7 @@ cat /etc/smokeping/config.d/General
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 23-06-2023
+# Date de modification : le 24-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/General
 # --------------------------------------------------------------------------
 *** General ***
@@ -84,7 +84,7 @@ cat /etc/smokeping/config.d/Alerts
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 23-06-2023
+# Date de modification : le 24-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Alerts
 # --------------------------------------------------------------------------
 *** Alerts ***
@@ -104,7 +104,7 @@ cat /etc/smokeping/config.d/Database
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 23-06-2023
+# Date de modification : le 24-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Database
 # --------------------------------------------------------------------------
 *** Database ***
@@ -205,8 +205,8 @@ cat /etc/smokeping/config.d/Probes
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
-# Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
+# Date de création : le 23-06-2023
+# Date de modification : le 24-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Probes
 # --------------------------------------------------------------------------
 *** Probes ***
