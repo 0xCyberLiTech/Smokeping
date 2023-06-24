@@ -176,110 +176,116 @@ menu = Top
 title = Network Latency Grapher
 remark = Welcome to this SmokePing website.
 
-+ network
-menu = Net latency
-title = Network latency (ICMP pings)
+# --------------------------------------------------------------------------
+# ICMP Latency
+# --------------------------------------------------------------------------
+# (srv-linux-01)
+# --------------------------------------------------------------------------
 
-++ srv-linux-01
-menu = srv-linux-01
++ ICMP-latency-srv-linux-01
+menu = ICMP latency (srv-linux-01)
 title = ICMP latency for (srv-linux-01)
 
-+++ normal
+++ normal
 title = Normal packetsize (56 bytes)
+# remark =
 probe = FPingNormal
 host = 192.168.50.200
 
-+++ large
+++ large
 title = Large packetsize (5000 bytes)
+# remark =
 probe = FPingLarge
 host = 192.168.50.200
 
-++ srv-linux-02
-menu = srv-linux-02
+# --------------------------------------------------------------------------
+# ICMP Latency
+# --------------------------------------------------------------------------
+# (srv-linux-02)
+# --------------------------------------------------------------------------
++ ICMP-latency-srv-linux-02
+menu = ICMP latency (srv-linux-02)
 title = ICMP latency for (srv-linux-02)
 
-+++ normal
+++ normal
 title = Normal packetsize (56 bytes)
+# remark =
 probe = FPingNormal
 host = 192.168.50.200
 
-+++ large
+++ large
 title = Large packetsize (5000 bytes)
+# remark =
 probe = FPingLarge
 host = 192.168.50.200
 
-++ Freebox-Delta
-menu = Freebox Delta
-title = ICMP latency for (Freebox Delta)
+# --------------------------------------------------------------------------
+# ICMP Latency
+# --------------------------------------------------------------------------
+# (Freebox Delta)
+# --------------------------------------------------------------------------
++ ICMP-latency-Freebox-Delta
+menu = ICMP latency (Freebox Delta)
+title = ICMP latency (Freebox Delta)
 
-+++ normal
+++ normal
 title = Normal packetsize (56 bytes)
+# remark =
 probe = FPingNormal
 host = 192.168.1.254
 
-+++ large
+++ large
 title = Large packetsize (5000 bytes)
+# remark =
 probe = FPingLarge
 host = 192.168.1.254
 
-++ Asus-GT-AXE-16000
-menu = Asus GT AXE 16000
-title = ICMP latency for (Asus GT AXE 16000)
+# --------------------------------------------------------------------------
+# ICMP Latency
+# --------------------------------------------------------------------------
+# (GT-AXE16000)
+# --------------------------------------------------------------------------
++ ICMP-latency-GT-AXE16000
+menu = ICMP latency (GT-AXE16000)
+title = ICMP latency (GT-AXE16000)
 
-+++ normal
+++ normal
 title = Normal packetsize (56 bytes)
+# remark =
 probe = FPingNormal
 host = 192.168.50.1
 
-+++ large
+++ large
 title = Large packetsize (5000 bytes)
+# remark =
 probe = FPingLarge
 host = 192.168.50.1
 
-+ services
-menu = Service Latency (DNS, HTTP)
-title = Service Latency (DNS, HTTP)
+# --------------------------------------------------------------------------
+# DNS Free
+# --------------------------------------------------------------------------
+# DNSFREE1 ---> 212.27.40.240 ---> dns1.proxad.net.
+# DNSFREE2 ---> 212.27.40.241 ---> dns2.proxad.net.
+# --------------------------------------------------------------------------
++ DNS-Free
+menu = DNS Free
+title = Etat des DNS Free primaire / secondaire
 
-++ DNS
-
+++ DNSFREE1
 probe = DNS
-menu = DNS Latency FAI Free
-title = DNS Latency FAI Free
-
-+++ DNS-1-Free
-
-menu = dns1.proxad.net
-title = DNS Free (dns1.proxad.net)
+menu = DNS Primaire IPv4 Free
+title = Test du serveur DNS Free 212.27.40.240 via de vraies requêtes DNS
+remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 212.27.40.240
+lookup = lafibre.info
 
-+++ DNS-2-Free
-
-menu = dns2.proxad.net
-title = DNS Free (dns2.proxad.net)
+++ DNSFREE2
+probe = DNS
+menu = DNS Secondaire IPv4 Free
+title = Test du serveur DNS Free 212.27.40.240 via de vraies requêtes DNS
+remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 212.27.40.241
-
-++ HTTP
-probe = Curl
-menu = HTTP Latency Local server
-title = HTTP Latency Local server
-
-+++ srv-linux-01
-menu = srv-linux-01
-title = HTTP Latency for srv-linux-01
-host = 192.168.50.200
-urlformat = http://%host%/
-
-+++ srv-linux-02
-menu = srv-linux-02
-title = HTTP Latency for srv-linux-02 (port 443!)
-host = 192.168.50.201
-urlformat = http://%host%:443/
-
-+++ srv-linux-03
-menu = srv-linux-03
-title = HTTP Latency for srv-linux-03 (port 8080!)
-host = 192.168.50.202
-urlformat = http://%host%:8080/
+lookup = lafibre.info
 ```
 Accéder à la console Smokeping :
 http://192.168.0.200/smokeping/
