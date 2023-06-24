@@ -304,7 +304,7 @@ lookup = lafibre.info
 ++ DNSFREE2
 probe = DNS
 menu = DNS Secondaire IPv4 Free
-title = Test du serveur DNS Free 212.27.40.240 via de vraies requêtes DNS
+title = Test du serveur DNS Free 212.27.40.241 via de vraies requêtes DNS
 remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 212.27.40.241
 lookup = lafibre.info
