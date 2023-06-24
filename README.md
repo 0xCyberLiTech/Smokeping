@@ -386,4 +386,5 @@ host = 212.27.40.241
 lookup = lafibre.info
 ```
 Accéder à la console Smokeping :
-http://192.168.0.200/smokeping/
+http://mon-ip/smokeping/smokeping.cgi
+http://FQDN/smokeping/smokeping.cgi
