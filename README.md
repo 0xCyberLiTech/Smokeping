@@ -1,6 +1,6 @@
 ## A la découverte de SMOKEPING.
 
-![Nagios](./images/smokeping.png)
+![Smokeping_01](./images/smokeping_01.png)
 
 #### Présentation :
 
