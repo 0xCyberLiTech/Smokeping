@@ -1,7 +1,6 @@
 ## A la découverte de SMOKEPING.
 
 ![Smokeping_01](./images/smokeping_01.png)
-
 #### Présentation :
 
 Surveiller sa latence réseau avec SmokePing.
