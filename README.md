@@ -53,7 +53,7 @@ cat /etc/smokeping/config.d/General
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
-# Date de création : le 21-06-2023
+# Date de création : le 23-06-2023
 # Date de modification : le 23-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/General
 # --------------------------------------------------------------------------
@@ -83,7 +83,7 @@ cat /etc/smokeping/config.d/Alerts
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
-# Date de création : le 21-06-2023
+# Date de création : le 23-06-2023
 # Date de modification : le 23-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Alerts
 # --------------------------------------------------------------------------
@@ -103,7 +103,7 @@ cat /etc/smokeping/config.d/Database
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
-# Date de création : le 21-06-2023
+# Date de création : le 23-06-2023
 # Date de modification : le 23-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Database
 # --------------------------------------------------------------------------
@@ -121,6 +121,82 @@ AVERAGE  0.5  12  4320
 AVERAGE  0.5 144   720
     MAX  0.5 144   720
     MIN  0.5 144   720
+```
+- Fichier de configuration (/etc/smokeping/config.d/Presentation).
+```
+cat /etc/smokeping/config.d/Presentation
+
+# --------------------------------------------------------------------------
+# 0xCyberLiTech
+# Date de création : le 23-06-2023
+# Date de modification : le 24-06-2023
+# Sujet : SMOKEPING - /etc/smokeping/config.d/Presentation
+# --------------------------------------------------------------------------
+*** Presentation ***
+
+template = /etc/smokeping/basepage.html
+charset = utf-8
+htmltitle = yes
+graphborders = no
+
++ charts
+
+menu = Charts
+title = The most interesting destinations
+
+++ stddev
+sorter = StdDev(entries=>4)
+title = Top Standard Deviation
+menu = Std Deviation
+format = Standard Deviation %f
+
+++ max
+sorter = Max(entries=>5)
+title = Top Max Roundtrip Time
+menu = by Max
+format = Max Roundtrip Time %f seconds
+
+++ loss
+sorter = Loss(entries=>5)
+title = Top Packet Loss
+menu = Loss
+format = Packets Lost %f
+
+++ median
+sorter = Median(entries=>5)
+title = Top Median Roundtrip Time
+menu = by Median
+format = Median RTT %f seconds
+
++ overview
+
+width = 600
+height = 50
+range = 10h
+
++ detail
+
+width = 600
+height = 200
+unison_tolerance = 2
+
+"Last 30 minutes" 3m
+"Last 1 Hour"     1h
+"Last 3 Hours"    3h
+"Last 30 Hours"   30h
+"Last 10 Days"    10d
+"Last 360 Days"   360d
+
+#+ hierarchies
+#++ owner
+#title = Host Owner
+#++ location
+#title = Location
+```
+Nous pouvons constater que nous avons rajouté deux variables de temps supplémenatires.
+```
+"Last 30 minutes" 3m
+"Last 1 Hour"     1h
 ```
 
 - Fichier de configuration, (/etc/smokeping/config.d/Probes).
@@ -179,8 +255,8 @@ cat /etc/smokeping/config.d/Targets
 
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
-# Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
+# Date de création : le 23-06-2023
+# Date de modification : le 24-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Targets
 # --------------------------------------------------------------------------
 *** Targets ***
