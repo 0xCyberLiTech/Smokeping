@@ -204,12 +204,14 @@ title = ICMP latency for (srv-linux-01)
 title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
+menu = Normal packetsize (56 bytes)
 host = 192.168.50.200
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
+menu = Large packetsize (5000 bytes)
 host = 192.168.50.200
 
 # --------------------------------------------------------------------------
@@ -225,12 +227,14 @@ title = ICMP latency for (srv-linux-02)
 title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
+menu = Normal packetsize (56 bytes)
 host = 192.168.50.200
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
+menu = Large packetsize (5000 bytes)
 host = 192.168.50.200
 
 # --------------------------------------------------------------------------
@@ -246,12 +250,14 @@ title = ICMP latency (Freebox Delta)
 title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
+menu = Normal packetsize (56 bytes)
 host = 192.168.1.254
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
+menu = Large packetsize (5000 bytes)
 host = 192.168.1.254
 
 # --------------------------------------------------------------------------
@@ -267,12 +273,14 @@ title = ICMP latency (GT-AXE16000)
 title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
+menu = Normal packetsize (56 bytes)
 host = 192.168.50.1
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
+menu = Large packetsize (5000 bytes)
 host = 192.168.50.1
 
 # --------------------------------------------------------------------------
