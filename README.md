@@ -136,12 +136,18 @@ cat /etc/smokeping/config.d/Probes
 *** Probes ***
 
 + FPing
-
 binary = /usr/bin/fping
+
+++ FPingNormal
+offset = 0%
+
+++ FPingLarge
+packetsize = 5000
+offset = 50%
 
 + DNS
 binary = /usr/bin/dig
-lookup = domain-to-lookup.com
+lookup = resolver.qwest.net```
 pings = 5
 step = 180
 
@@ -151,7 +157,7 @@ binary = /usr/bin/curl
 step = 60
 
 # a default for this target-specific variable
-urlformat = http://%host%/
+urlformat = http://%host/
 ```
 - Fichier de configuration, (/etc/smokeping/config.d/Targets).
 ```
@@ -165,44 +171,70 @@ cat /etc/smokeping/config.d/Targets
 # --------------------------------------------------------------------------
 *** Targets ***
 
-probe = FPing
-
+probe = FPingNormal
 menu = Top
 title = Network Latency Grapher
-remark = Welcome to the SmokePing website of xxx Company. \
-         Here you will learn all about the latency of our network.
+remark = Welcome to this SmokePing website.
 
-+ home
-
-menu = home
-title = home
-#parents = owner:/Test/James location:/
++ network
+menu = Net latency
+title = Network latency (ICMP pings)
 
 ++ srv-linux-01
-
 menu = srv-linux-01
-title = srv-linux-01
+title = ICMP latency for (srv-linux-01)
+
++++ normal
+title = Normal packetsize (56 bytes)
+probe = FPingNormal
 host = 192.168.50.200
-#alerts = someloss
+
++++ large
+title = Large packetsize (5000 bytes)
+probe = FPingLarge
+host = 192.168.50.200
 
 ++ srv-linux-02
-
 menu = srv-linux-02
-title = srv-linux-02
-host = 192.168.50.201
-#alerts = someloss
+title = ICMP latency for (srv-linux-02)
 
-+ ips-public
++++ normal
+title = Normal packetsize (56 bytes)
+probe = FPingNormal
+host = 192.168.50.200
 
-menu = ips-public
-title = ips public
-#parents = owner:/Test/James location:/
++++ large
+title = Large packetsize (5000 bytes)
+probe = FPingLarge
+host = 192.168.50.200
 
-++ ip-fixe-free
-menu = ip-fixe-free
-title = IP fixe FAI Free
-host = 82.64.73.61
-#alerts = someloss
+++ Freebox-Delta
+menu = Freebox Delta
+title = ICMP latency for (Freebox Delta)
+
++++ normal
+title = Normal packetsize (56 bytes)
+probe = FPingNormal
+host = 192.168.1.254
+
++++ large
+title = Large packetsize (5000 bytes)
+probe = FPingLarge
+host = 192.168.1.254
+
+++ Asus-GT-AXE-16000
+menu = Asus GT AXE 16000
+title = ICMP latency for (Asus GT AXE 16000)
+
++++ normal
+title = Normal packetsize (56 bytes)
+probe = FPingNormal
+host = 192.168.50.1
+
++++ large
+title = Large packetsize (5000 bytes)
+probe = FPingLarge
+host = 192.168.50.1
 
 + services
 menu = Service Latency (DNS, HTTP)
@@ -218,15 +250,13 @@ title = DNS Latency FAI Free
 
 menu = dns1.proxad.net
 title = DNS Free (dns1.proxad.net)
-host = dns1.proxad.net
-server = resolver.qwest.net```
+host = 212.27.40.240
 
 +++ DNS-2-Free
 
 menu = dns2.proxad.net
 title = DNS Free (dns2.proxad.net)
-host = dns2.proxad.net
-server = resolver.qwest.net```
+host = 212.27.40.241
 
 ++ HTTP
 probe = Curl
@@ -241,13 +271,13 @@ urlformat = http://%host%/
 
 +++ srv-linux-02
 menu = srv-linux-02
-title = HTTP Latency for srv-linux-02
+title = HTTP Latency for srv-linux-02 (port 443!)
 host = 192.168.50.201
-urlformat = http://%host%/
+urlformat = http://%host%:443/
 
 +++ srv-linux-03
 menu = srv-linux-03
-title = HTTP Latency for server3 (port 8080!)
+title = HTTP Latency for srv-linux-03 (port 8080!)
 host = 192.168.50.202
 urlformat = http://%host%:8080/
 ```
