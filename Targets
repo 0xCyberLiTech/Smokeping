@@ -16,7 +16,6 @@ remark = Welcome to this SmokePing website.
 # --------------------------------------------------------------------------
 # (srv-linux-01)
 # --------------------------------------------------------------------------
-
 + ICMP-latency-srv-linux-01
 menu = ICMP latency (srv-linux-01)
 title = ICMP latency for (srv-linux-01)
