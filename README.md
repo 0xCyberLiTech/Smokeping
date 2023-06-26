@@ -205,7 +205,7 @@ cat /etc/smokeping/config.d/Probes
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 24-06-2023
+# Date de modification : le 26-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Probes
 # --------------------------------------------------------------------------
 *** Probes ***
@@ -270,6 +270,7 @@ remark = Welcome to this SmokePing website.
 # --------------------------------------------------------------------------
 # (srv-linux-01)
 # --------------------------------------------------------------------------
+
 + ICMP-latency-srv-linux-01
 menu = ICMP latency (srv-linux-01)
 title = ICMP latency for (srv-linux-01)
@@ -332,6 +333,7 @@ title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
 menu = Large packetsize (5000 bytes)
+
 host = 192.168.1.254
 
 # --------------------------------------------------------------------------
@@ -467,6 +469,7 @@ lookup = lafibre.info
 # DNSGOOGLE1 ---> 8.8.8.8 ---> dns.google.
 # DNSGOOGLE2 ---> 8.8.4.4 ---> dns.google.
 # --------------------------------------------------------------------------
+
 + DNS-Google
 menu = Etat des DNS Google
 title = Etat des DNS Google primaire / secondaire
@@ -486,6 +489,28 @@ title = Test du serveur DNS Google 8.8.4.4 via de vraies requêtes DNS
 remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 8.8.4.4
 lookup = lafibre.info
+
+# --------------------------------------------------------------------------
+# HTTP latency
+# --------------------------------------------------------------------------
+# Myhost1 ---> HTTP ---> zimbra.free.fr
+# Myhost2 ---> HTTP ---> web-mail.laposte.ne
+# --------------------------------------------------------------------------
++ HTTP
+menu = HTTP latency
+title = HTTP latency
+
+++ myhost1
+menu = zimbra.free.fr
+title = HTTP latency for myhost1
+remark = HTTP / zimbra.free.fr
+host = zimbra.free.fr
+
+++ myhost2
+menu = web-mail.laposte.net
+title = HTTP latency for myhost2
+remark = HTTP / web-mail.laposte.net
+host = web-mail.laposte.net
 ```
 Accéder à la console Smokeping :
 (http://mon-ip/smokeping/smokeping.cgi) ou (http://FQDN/smokeping/smokeping.cgi)
