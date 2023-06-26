@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 21-06-2023
-# Date de modification : le 23-06-2023
+# Date de modification : le 26-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Targets
 # --------------------------------------------------------------------------
 *** Targets ***
@@ -16,6 +16,7 @@ remark = Welcome to this SmokePing website.
 # --------------------------------------------------------------------------
 # (srv-linux-01)
 # --------------------------------------------------------------------------
+
 + ICMP-latency-srv-linux-01
 menu = ICMP latency (srv-linux-01)
 title = ICMP latency for (srv-linux-01)
@@ -48,14 +49,14 @@ title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
 menu = Normal packetsize (56 bytes)
-host = 192.168.50.200
+host = 192.168.50.201
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
 menu = Large packetsize (5000 bytes)
-host = 192.168.50.200
+host = 192.168.50.201
 
 # --------------------------------------------------------------------------
 # ICMP Latency
@@ -78,6 +79,7 @@ title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
 menu = Large packetsize (5000 bytes)
+
 host = 192.168.1.254
 
 # --------------------------------------------------------------------------
@@ -213,6 +215,7 @@ lookup = lafibre.info
 # DNSGOOGLE1 ---> 8.8.8.8 ---> dns.google.
 # DNSGOOGLE2 ---> 8.8.4.4 ---> dns.google.
 # --------------------------------------------------------------------------
+
 + DNS-Google
 menu = Etat des DNS Google
 title = Etat des DNS Google primaire / secondaire
