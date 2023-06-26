@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 24-06-2023
+# Date de modification : le 26-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Presentation
 # --------------------------------------------------------------------------
 *** Presentation ***
@@ -52,11 +52,14 @@ width = 600
 height = 200
 unison_tolerance = 2
 
-"Last 30 minutes" 3m
+"Last 30 minutes" 30m
 "Last 1 Hour"     1h
 "Last 3 Hours"    3h
-"Last 30 Hours"   30h
+"Last 24 Hours"   24h
+"Last 48 Hours"   48h
 "Last 10 Days"    10d
+"Last 30 Days"    30d
+"Last 90 Days"    90d
 "Last 360 Days"   360d
 
 #+ hierarchies
