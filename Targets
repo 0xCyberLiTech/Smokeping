@@ -49,14 +49,14 @@ title = Normal packetsize (56 bytes)
 # remark =
 probe = FPingNormal
 menu = Normal packetsize (56 bytes)
-host = 192.168.50.201
+host = 192.168.50.200
 
 ++ large
 title = Large packetsize (5000 bytes)
 # remark =
 probe = FPingLarge
 menu = Large packetsize (5000 bytes)
-host = 192.168.50.201
+host = 192.168.50.200
 
 # --------------------------------------------------------------------------
 # ICMP Latency
@@ -235,3 +235,25 @@ title = Test du serveur DNS Google 8.8.4.4 via de vraies requêtes DNS
 remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 8.8.4.4
 lookup = lafibre.info
+
+# --------------------------------------------------------------------------
+# HTTP latency
+# --------------------------------------------------------------------------
+# Myhost1 ---> HTTP ---> zimbra.free.fr
+# Myhost2 ---> HTTP ---> web-mail.laposte.ne
+# --------------------------------------------------------------------------
++ HTTP
+menu = HTTP latency
+title = HTTP latency
+
+++ myhost1
+menu = zimbra.free.fr
+title = HTTP latency for myhost1
+remark = HTTP / zimbra.free.fr
+host = zimbra.free.fr
+
+++ myhost2
+menu = web-mail.laposte.net
+title = HTTP latency for myhost2
+remark = HTTP / web-mail.laposte.net
+host = web-mail.laposte.net
