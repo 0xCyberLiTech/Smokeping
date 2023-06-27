@@ -128,7 +128,7 @@ cat /etc/smokeping/config.d/Presentation
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
-# Date de modification : le 24-06-2023
+# Date de modification : le 26-06-2023
 # Sujet : SMOKEPING - /etc/smokeping/config.d/Presentation
 # --------------------------------------------------------------------------
 *** Presentation ***
