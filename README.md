@@ -442,27 +442,27 @@ host = 109.0.66.20
 lookup = lafibre.info
 
 # --------------------------------------------------------------------------
-# DNS BOYGUES TELECOM
+# DNS Bouygues TELECOM
 # --------------------------------------------------------------------------
 # DNSSFR1 ---> 194.158.122.10 ---> nsabo1.bouyguesbox.fr.
 # DNSSFR2 ---> 194.158.122.15 ---> nsabo2.bouyguesbox.fr.
 # --------------------------------------------------------------------------
-+ DNS-Boygues-Telecom
-menu = Etat des DNS Boygues Telecom
-title = Etat des DNS Boygues Telecom primaire / secondaire
++ DNS-BOUYGUES-Telecom
+menu = Etat des DNS Bouygues Telecom
+title = Etat des DNS Bouygues Telecom primaire / secondaire
 
-++ DNSBOYGUES1
+++ DNSBOUYGUES1
 probe = DNS
-menu = DNS Primaire IPv4 Boygues Telecom
-title = Test du serveur DNS Boygues Telecom 194.158.122.10 via de vraies requêtes DNS
+menu = DNS Primaire IPv4 Bouygues Telecom
+title = Test du serveur DNS Bouygues Telecom 194.158.122.10 via de vraies requêtes DNS
 remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 194.158.122.10
 lookup = lafibre.info
 
-++ DNSBOYGUES2
+++ DNSBOUYGUES2
 probe = DNS
-menu = DNS Secondaire IPv4 Boygues Telecom
-title = Test du serveur DNS Boygues Telecom 194.158.122.15 via de vraies requêtes DNS
+menu = DNS Secondaire IPv4 Bouygues Telecom
+title = Test du serveur DNS Bouygues Telecom 194.158.122.15 via de vraies requêtes DNS
 remark = Requête DNS de type A lafibre.info en IPv4 (DNS autoritaire: OVH mutualisé)
 host = 194.158.122.15
 lookup = lafibre.info
