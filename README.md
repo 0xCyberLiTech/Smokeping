@@ -9,7 +9,7 @@ La bande passante n'est pas la seule caractéristique à prendre en compte dans 
 
 Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et léger permettant de mesurer et grapher un grand nombre de paramètres de votre réseau.
 
-#### Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
+### Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
 
 Installer et configurer SmokePing.
 
