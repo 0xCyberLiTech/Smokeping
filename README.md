@@ -40,7 +40,8 @@ Nous retrouverons nos fichiers de configuration vers :
 Les fichiers de configuration pris en charge sont déclarés dans le fichier /etc/smokeping/config.
 ```
 cat /etc/smokeping/config
-
+```
+```
 @include /etc/smokeping/config.d/General
 @include /etc/smokeping/config.d/Alerts
 @include /etc/smokeping/config.d/Database
@@ -52,7 +53,8 @@ cat /etc/smokeping/config
 - Fichier de configuration (/etc/smokeping/config.d/General).
 ```
 cat /etc/smokeping/config.d/General
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
@@ -82,7 +84,8 @@ Mettez à jour l'adresse cgiurl.
 - Fichier de configuration, (/etc/smokeping/config.d/Alerts).
 ```
 cat /etc/smokeping/config.d/Alerts
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
@@ -102,7 +105,8 @@ comment = loss 3 times  in a row
 - Fichier de configuration, (/etc/smokeping/config.d/Database).
 ```
 cat /etc/smokeping/config.d/Database
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
@@ -127,7 +131,8 @@ AVERAGE  0.5 144   720
 - Fichier de configuration (/etc/smokeping/config.d/Presentation).
 ```
 cat /etc/smokeping/config.d/Presentation
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
@@ -207,7 +212,8 @@ Nous pouvons constater que nous avons rajouté deux variables de temps suppléme
 - Fichier de configuration, (/etc/smokeping/config.d/Probes).
 ```
 cat /etc/smokeping/config.d/Probes
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 23-06-2023
@@ -257,7 +263,8 @@ urlformat = http://%host/
 - Fichier de configuration, (/etc/smokeping/config.d/Targets).
 ```
 cat /etc/smokeping/config.d/Targets
-
+```
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 21-06-2023
