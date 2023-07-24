@@ -5,7 +5,7 @@
 
 Surveiller sa latence réseau avec SmokePing.
 
-La bande passante n'est pas la seule caractéristique à prendre en compte dans la performance de vos réseau. En effet, certaines applications comme la voie sur IP ou les jeux en ligne sont très sensible à la latence et à sa variation. De nombreux outils permette de faire la supervision de ces mesures (on peut citer notamment Cacti). 
+La bande passante n'est pas la seule caractéristique à prendre en compte dans la performance de vos réseaux. En effet, certaines applications comme la voie sur IP ou les jeux en ligne sont très sensible à la latence et à sa variation. De nombreux outils permettent de faire la supervision de ces mesures (on peut citer notamment Cacti).
 
 Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et léger permettant de mesurer et grapher un grand nombre de paramètres de votre réseau.
 
@@ -21,7 +21,8 @@ Installez le package smokeping, mais ignorez les packages recommandés.
 ```
 apt install --no-install-recommends smokeping dnsutils curl
 ```
-Dans un premier temps, vérifiez les paramètres de la base de données car vous ne pourrez pas les modifier facilement par la suite. 
+Dans un premier temps, vérifiez les paramètres de la base de données, car vous ne pourrez pas les modifier facilement par la suite.
+
 J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 minutes.
 
 Nous retrouverons nos fichiers de configuration vers :
@@ -37,7 +38,7 @@ Nous retrouverons nos fichiers de configuration vers :
    └── Targets
 
 ```
-Les fichiers de configuration pris en charge sont déclarés dans le fichier /etc/smokeping/config.
+Les fichiers de configuration pris en charge sont déclarés dans le fichier (/etc/smokeping/config).
 ```
 cat /etc/smokeping/config
 ```
@@ -78,7 +79,8 @@ syslogfacility = local0
 
 @include /etc/smokeping/config.d/pathnames
 ```
-Mettez à jour l'adresse cgiurl. 
+Mettez à jour l'adresse cgiurl.
+
 (cgiurl = http://some.url/smokeping.cgi) par (cgiurl = http://192.168.0.200/smokeping.cgi).
 
 - Fichier de configuration, (/etc/smokeping/config.d/Alerts).
@@ -203,7 +205,7 @@ unison_tolerance = 2
 #++ location
 #title = Location
 ```
-Nous pouvons constater que nous avons rajouté deux variables de temps supplémenatires.
+Nous pouvons constater que nous avons rajouté deux variables de temps supplémentaires.
 ```
 "Last 30 minutes" 3m
 "Last 1 Hour"     1h
@@ -526,4 +528,5 @@ remark = HTTP / web-mail.laposte.net
 host = web-mail.laposte.net
 ```
 Accéder à la console Smokeping :
+
 (http://mon-ip/smokeping/smokeping.cgi) ou (http://FQDN/smokeping/smokeping.cgi)
