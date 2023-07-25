@@ -39,6 +39,8 @@ Apporter des restrictions sur votre réseau.
 ```
 restrict 127.0.0.1
 restrict ::1
+```
+```
 restrict 192.168.0.0 mask 255.255.0.0
 ```
 ```
