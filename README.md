@@ -11,10 +11,20 @@ Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et l
 
 Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
 
-# Avant de commencer installer et configure NTP Server (NTPsec) sur DEBIAN 12.
+# Avant de commencer il fau installer et configure NTP Server (NTPsec) sur DEBIAN 12.
 
 NTP utilise le port 123 en UDP.
 
+Recalibrer la time zone :
+
+```
+dpkg-reconfigure tzdata
+```
+```
+Current default time zone: 'Europe/Paris'
+Local time is now:      Tue Jul 25 14:35:59 CEST 2023.
+Universal Time is now:  Tue Jul 25 12:35:59 UTC 2023.
+```
 ```
 apt -y install ntpsec
 ```
