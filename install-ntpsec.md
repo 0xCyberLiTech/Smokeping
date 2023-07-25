@@ -2,6 +2,15 @@
 
 Installez et configurez NTPsec. NTP utilise le port 123 en UDP.
 
+Recalibrer la time zone :
+```
+dpkg-reconfigure tzdata
+```
+```
+Current default time zone: 'Europe/Paris'
+Local time is now:      Tue Jul 25 14:35:59 CEST 2023.
+Universal Time is now:  Tue Jul 25 12:35:59 UTC 2023.
+```
 ```
 apt -y install ntpsec
 ```
