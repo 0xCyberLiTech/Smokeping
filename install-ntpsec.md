@@ -1,6 +1,8 @@
 # Installer et configure NTP Server (NTPsec) sur DEBIAN 12.
 
-Installez et configurez NTPsec. NTP utilise le port 123 en UDP.
+Installez et configurez NTPsec.
+
+NTP utilise le port 123 en UDP.
 
 Recalibrer la time zone :
 ```
