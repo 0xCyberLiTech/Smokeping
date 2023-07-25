@@ -1,18 +1,64 @@
-## A la découverte de SMOKEPING.
+# A la découverte de SMOKEPING.
 
 ![Smokeping_01](./images/smokeping_01.png)
 #### Présentation :
 
 Surveiller sa latence réseau avec SmokePing.
 
-
 La bande passante n'est pas la seule caractéristique à prendre en compte dans la performance de vos réseaux. En effet, certaines applications comme la voie sur IP ou les jeux en ligne sont très sensible à la latence et à sa variation. De nombreux outils permettent de faire la supervision de ces mesures (on peut citer notamment Cacti).
 
 Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et léger permettant de mesurer et grapher un grand nombre de paramètres de votre réseau.
 
-### Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
+Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
 
-Installer et configurer SmokePing.
+# Avant de commencer installer et configure NTP Server (NTPsec) sur DEBIAN 12.
+
+NTP utilise le port 123 en UDP.
+
+```
+apt -y install ntpsec
+```
+```
+nano /etc/ntpsec/ntp.conf
+```
+Commentez les paramètres par défaut et ajoutez des serveurs NTP pour votre fuseau horaire :
+```
+#pool 0.debian.pool.ntp.org iburst
+#pool 1.debian.pool.ntp.org iburst
+#pool 2.debian.pool.ntp.org iburst
+#pool 3.debian.pool.ntp.org iburst
+```
+```
+pool 0.fr.pool.ntp.org iburst
+pool 1.fr.pool.ntp.org iburst
+pool 2.fr.pool.ntp.org iburst
+pool 3.fr.pool.ntp.org iburst
+```
+Apporter des restrictions sur votre réseau.
+
+À la fin du fichier de configuration rajouter ce-ci :
+
+```
+restrict 127.0.0.1
+restrict ::1
+restrict 192.168.0.0 mask 255.255.0.0
+```
+```
+systemctl restart ntpsec.service
+```
+Vérifier le statut du NTP.
+```
+ntpq -p
+```
+```
+     remote                                   refid      st t when poll reach   delay   offset   jitter
+=======================================================================================================
+ 0.fr.pool.ntp.org                       .POOL.          16 p    -  256    0   0.0000   0.0000   0.0001
+ 1.fr.pool.ntp.org                       .POOL.          16 p    -  256    0   0.0000   0.0000   0.0001
+ 2.fr.pool.ntp.org                       .POOL.          16 p    -  256    0   0.0000   0.0000   0.0001
+ 3.fr.pool.ntp.org                       .POOL.          16 p    -  256    0   0.0000   0.0000   0.0001
+```
+# Nous pouvons passer à l'nstallation et configuration de SmokePing.
 
 Mettre à jour l'index des packages.
 ```
