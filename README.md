@@ -13,7 +13,7 @@ Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'
 
 - Avant de commencer il fau installer et configurer (NTPsec).
 
-[Installer et configurer (NTPsec)](https://github.com/0xCyberLiTech/OS-Debian-12/blob/main/installer-et-configurer-NTPsec.md) |
+[Installer et configurer (NTPsec)](https://github.com/0xCyberLiTech/OS-Debian-12/blob/main/installer-et-configurer-NTPsec.md)
 
 # Nous pouvons passer à l'nstallation et configuration de SmokePing.
 
