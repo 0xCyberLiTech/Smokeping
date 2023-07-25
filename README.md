@@ -11,7 +11,7 @@ Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et l
 
 Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
 
-- Avant de commencer il fau installer et configure NTP Server (NTPsec) sur DEBIAN 12.
+- Avant de commencer il fau installer et configurer (NTPsec).
 
 [Installer et configurer (NTPsec)](https://github.com/0xCyberLiTech/OS-Debian-12/blob/main/installer-et-configurer-NTPsec.md) |
 
