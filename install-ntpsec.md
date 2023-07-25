@@ -1,8 +1,7 @@
 # Installer et configure NTP Server (NTPsec) sur DEBIAN 12.
 
-Installez NTPsec et configurez le serveur NTP pour mettre à l'heure votre serveur. NTP utilise le port 123 en UDP.
+Installez et configurez NTPsec. NTP utilise le port 123 en UDP.
 
-- 1) Installer et configurer NTPsec.
 ```
 apt -y install ntpsec
 ```
@@ -22,14 +21,19 @@ pool 1.fr.pool.ntp.org iburst
 pool 2.fr.pool.ntp.org iburst
 pool 3.fr.pool.ntp.org iburst
 ```
-Ajouter à la fin le subnet réseau que vous autorisez à recevoir les demandes de synchronisation de l'heure des clients.
+Apporter des restrictions sur votre réseau.
+
+À la fin du fichier de configuration rajouter ce-ci :
+
 ```
+restrict 127.0.0.1
+restrict ::1
 restrict 192.168.0.0 mask 255.255.0.0
 ```
 ```
-systemctl restart ntpsec
+systemctl restart ntpsec.service
 ```
-Vérifier le statut
+Vérifier le statut du NTP.
 ```
 ntpq -p
 ```
