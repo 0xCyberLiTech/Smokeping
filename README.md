@@ -1,4 +1,4 @@
-# A la découverte de SMOKEPING.
+## A la découverte de SMOKEPING.
 
 ![Smokeping_01](./images/smokeping_01.png)
 #### Présentation :
