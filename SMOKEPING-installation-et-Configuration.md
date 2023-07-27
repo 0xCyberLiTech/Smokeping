@@ -1,3 +1,5 @@
+![Smokeping_01](./images/smokeping_01.png)
+
 ## SMOKEPING Installation & Configuration.
 
 Les problèmes réseaux et de qualités sont souvent difficiles à comprendre et à analyser, encore faut il les trouver. 
