@@ -16,7 +16,7 @@ Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'
 
 [Installer et configurer (NTPsec)](https://github.com/0xCyberLiTech/NTPsec/blob/main/Installer-et-configurer-NTPsec.md)
 
-# Nous pouvons passer à l'nstallation et configuration.
+## Nous pouvons passer à l'nstallation et configuration.
 
 Mettre à jour l'index des packages.
 ```
