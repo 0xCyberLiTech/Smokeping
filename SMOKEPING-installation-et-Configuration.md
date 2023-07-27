@@ -31,6 +31,10 @@ Dans un premier temps, vérifiez les paramètres de la base de données, car vou
 J'utiliserai les paramètres par défaut, ce qui signifie 20 pings toutes les 5 minutes.
 
 Nous retrouverons nos fichiers de configuration vers :
+
+```
+/etc/smokeping/config.d/
+```
 ```
 ── config.d
    ├── Alerts
@@ -45,7 +49,7 @@ Nous retrouverons nos fichiers de configuration vers :
 ```
 Les fichiers de configuration pris en charge sont déclarés dans le fichier (/etc/smokeping/config).
 ```
-cat /etc/smokeping/config
+cat /etc/smokeping/config.d/
 ```
 ```
 @include /etc/smokeping/config.d/General
