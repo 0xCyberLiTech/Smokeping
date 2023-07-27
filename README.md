@@ -1,6 +1,6 @@
 ![Smokeping_01](./images/smokeping_01.png)
 
-👋 Sujet abordés :
+👋 Sommaire des sujet abordés :
 
 - 01 - []()
 - 02 - []()
