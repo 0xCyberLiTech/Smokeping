@@ -1,14 +1,14 @@
 ![Smokeping_01](./images/smokeping_01.png)
 
-## A la découverte de SMOKEPING.
+## SMOKEPING Installation & Configuration.
 
-Présentation :
+Les problèmes réseaux et de qualités sont souvent difficiles à comprendre et à analyser, encore faut il les trouver. 
 
-Surveiller sa latence réseau avec SmokePing.
+Smokeping peut vous y aider. SmokePing est un logiciel qui vous permet de conserver un historique de la latence de votre réseau.
 
-La bande passante n'est pas la seule caractéristique à prendre en compte dans la performance de vos réseaux. En effet, certaines applications comme la voie sur IP ou les jeux en ligne sont très sensible à la latence et à sa variation. De nombreux outils permettent de faire la supervision de ces mesures (on peut citer notamment Cacti).
+Il est conçu par Tobi Oetiker, le créateur de MRTG et RRDtool.
 
-Nous allons dans cet article parler de SmokePing, un outil libre, modulaire et léger permettant de mesurer et grapher un grand nombre de paramètres de votre réseau.
+SmokePing est prévu pour calculer le RTT (Real Trip Time) entre les différents composants de votre réseau et peut le faire aussi bien avec un basique ping ICMP qu’avec des pings plus spécifiquement adaptés aux protocoles HTTP, SMTP, LDAP, DNS…
 
 Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'installer smokeping.
 
@@ -16,7 +16,7 @@ Note : Nous partons du principe qu'Apache2 est installé et fonctionnel avant d'
 
 [Installer et configurer (NTPsec)](https://github.com/0xCyberLiTech/NTPsec/blob/main/Installer-et-configurer-NTPsec.md)
 
-# Nous pouvons passer à l'nstallation et configuration de SmokePing.
+# Nous pouvons passer à l'nstallation et configuration.
 
 Mettre à jour l'index des packages.
 ```
