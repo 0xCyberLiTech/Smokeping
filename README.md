@@ -29,7 +29,7 @@
 
 ---
 
-## 📡 SmokePing — Documentation & Fichiers de Configuration
+## 📡 SmokePing - Documentation & Fichiers de Configuration
 
 ![Smokeping_01](./images/smokeping_01.png)
 
