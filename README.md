@@ -1,11 +1,11 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=700&lines=SUPERVISION+AVEC+ZABBIX;Installation+•+Sécurité+•+Backup;Tutoriels+pour+Debian" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=800&lines=SUPERVISION+AVEC+SMOKEPING;Installation+•+Latence+•+Graphes;Tutoriels+réseaux+sous+Debian" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <em>Tutoriels et configurations pour la supervision avec Zabbix.</em><br>
+  <em>Tutos et configurations smokeping.</em><br>
   <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
 </p>
 
