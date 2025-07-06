@@ -33,7 +33,7 @@
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-## 👋 Sommaire :
+## 📁 Sommaire :
 
 | N°  | Titre / Fichier                  | Description                              | Lien |
 |-----|----------------------------------|------------------------------------------|-------|
