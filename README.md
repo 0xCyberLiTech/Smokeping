@@ -37,7 +37,7 @@
 
 | N°  | Titre / Fichier                  | Description                              | Lien |
 |-----|----------------------------------|------------------------------------------|-------|
-| 01  | 🛠️ Tuto | Guide d'installation | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./SMOKEPING-installation-et-Configuration.md) |
+| 01  | Tuto | Guide d'installation | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./SMOKEPING-installation-et-Configuration.md) |
 
 ---
 
