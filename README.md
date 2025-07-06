@@ -31,7 +31,7 @@
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-👋 Sommaire des sujets abordés :
+👋 Sommaire :
 
 - 01 - [SMOKEPING installation et Configuration.](SMOKEPING-installation-et-Configuration.md)
 
