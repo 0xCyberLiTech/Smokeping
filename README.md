@@ -29,10 +29,9 @@
 
 ---
 
-![Smokeping_01](./images/smokeping_01.png)
-
-
 # 📡 SmokePing — Documentation et Fichiers de Configuration
+
+![Smokeping_01](./images/smokeping_01.png)
 
 ## 👋 Sommaire :
 
