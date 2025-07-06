@@ -31,9 +31,7 @@
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-# 📡 SmokePing — Documentation et Fichiers de Configuration
-
-## 👋 Sommaire
+## 👋 Sommaire : SmokePing — Documentation et Fichiers de Configuration
 
 | N°  | Titre / Fichier                          | Description                                | Lien / Chemin                                 |
 |-----|------------------------------------------|--------------------------------------------|------------------------------------------------|
@@ -45,10 +43,10 @@
 
 | N°  | Nom du fichier         | Description du fichier                       | Lien / Chemin            |
 |-----|------------------------|-----------------------------------------------|---------------------------|
-| 01  | Exemple **Probes**     | Définition des sondes utilisées               | [Probes](Probes)          |
-| 02  | Exemple **Presentation** | Options d’affichage des résultats             | [Presentation](Presentation) |
-| 03  | Exemple **General**    | Paramètres généraux de SmokePing              | [General](General)        |
-| 04  | Exemple **Targets**    | Cibles à surveiller (adresses IP, hôtes...)   | [Targets](Targets)        |
+| 01  | 🛠️ Exemple **Probes**     | Définition des sondes utilisées               | [Probes](Probes)          |
+| 02  | 🛠️ Exemple **Presentation** | Options d’affichage des résultats             | [Presentation](Presentation) |
+| 03  | 🛠️ Exemple **General**    | Paramètres généraux de SmokePing              | [General](General)        |
+| 04  | 🛠️ Exemple **Targets**    | Cibles à surveiller (adresses IP, hôtes...)   | [Targets](Targets)        |
 
 
 
