@@ -49,6 +49,24 @@
 | 04  | 🛠️ Exemple **Targets**    | Cibles à surveiller (adresses IP, hôtes...)   | [Targets](Targets)        |
 
 
+# 📡 SmokePing — Documentation et Fichiers de Configuration
+
+## 👋 Sommaire
+
+| N°  | Titre / Fichier                  | Description                              | Lien |
+|-----|----------------------------------|------------------------------------------|-------|
+| 01  | 🛠️ Installation et configuration | Guide d'installation et de mise en route | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./SMOKEPING-installation-et-Configuration.md) |
+
+---
+
+## 📁 Exemples de fichiers de configuration (`/etc/smokeping/config.d/`)
+
+| N°  | Fichier                        | Description                               | Lien |
+|-----|--------------------------------|-------------------------------------------|-------|
+| 01  | Exemple **Probes**             | Définition des sondes utilisées           | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=github&logoColor=white">](./Probes) |
+| 02  | Exemple **Presentation**       | Options d’affichage des résultats         | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=github&logoColor=white">](./Presentation) |
+| 03  | Exemple **General**            | Paramètres généraux de SmokePing          | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=github&logoColor=white">](./General) |
+| 04  | Exemple **Targets**            | Cibles à surveiller (IP, hôtes…)          | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=github&logoColor=white">](./Targets) |
 
 ---
 
