@@ -41,7 +41,7 @@
 
 ---
 
-## 📁 Exemples de fichiers de configuration (`/etc/smokeping/config.d/`)
+## 📁 Fichiers de configuration (`/etc/smokeping/config.d/`)
 
 | N°  | Fichier                    | Description                               | Lien |
 |-----|--------------------------------|-------------------------------------------|-------|
