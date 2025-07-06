@@ -43,7 +43,7 @@
 
 ## 📁 Exemples de fichiers de configuration (`/etc/smokeping/config.d/`)
 
-| N°  | Fichier exemple                       | Description                               | Lien |
+| N°  | Fichier                    | Description                               | Lien |
 |-----|--------------------------------|-------------------------------------------|-------|
 | 01  | **Probes**             | Définition des sondes utilisées           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./Probes) |
 | 02  | **Presentation**       | Options d’affichage des résultats         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./Presentation) |
