@@ -31,31 +31,14 @@
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-## 👋 Sommaire : SmokePing — Documentation et Fichiers de Configuration
-
-| N°  | Titre / Fichier                          | Description                                | Lien / Chemin                                 |
-|-----|------------------------------------------|--------------------------------------------|------------------------------------------------|
-| 01  | 🛠️ Installation et configuration         | Guide d'installation et de mise en route   | [SMOKEPING-installation-et-Configuration.md](SMOKEPING-installation-et-Configuration.md) |
-
----
-
-## 📁 Exemples de fichiers de configuration (`/etc/smokeping/config.d/`)
-
-| N°  | Nom du fichier         | Description du fichier                       | Lien / Chemin            |
-|-----|------------------------|-----------------------------------------------|---------------------------|
-| 01  | 🛠️ Exemple **Probes**     | Définition des sondes utilisées               | [Probes](Probes)          |
-| 02  | 🛠️ Exemple **Presentation** | Options d’affichage des résultats             | [Presentation](Presentation) |
-| 03  | 🛠️ Exemple **General**    | Paramètres généraux de SmokePing              | [General](General)        |
-| 04  | 🛠️ Exemple **Targets**    | Cibles à surveiller (adresses IP, hôtes...)   | [Targets](Targets)        |
-
 
 # 📡 SmokePing — Documentation et Fichiers de Configuration
 
-## 👋 Sommaire
+## 👋 Sommaire :
 
 | N°  | Titre / Fichier                  | Description                              | Lien |
 |-----|----------------------------------|------------------------------------------|-------|
-| 01  | 🛠️ Installation et configuration | Guide d'installation et de mise en route | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./SMOKEPING-installation-et-Configuration.md) |
+| 01  | 🛠️ Installation et configuration | Guide d'installation et de mise en route | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=github&logoColor=white">](./SMOKEPING-installation-et-Configuration.md) |
 
 ---
 
