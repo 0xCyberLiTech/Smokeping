@@ -10,7 +10,7 @@
   </p>
 
   [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
-  [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Smokeping?label=version&style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Smokeping/releases/latest)
+  [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Supervision?label=version&style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Supervision/releases/latest)
   [![📄 CHANGELOG](https://img.shields.io/badge/📄%20Changelog-Smokeping-blue?style=flat-square)](https://github.com/0xCyberLiTech/Smokeping/blob/main/CHANGELOG.md)
   [![📂 Dépôts publics](https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square)](https://github.com/0xCyberLiTech?tab=repositories)
   [![👥 Contributeurs](https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square)](https://github.com/0xCyberLiTech/Smokeping/graphs/contributors)
