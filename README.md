@@ -1,9 +1,14 @@
 <div align="center">
 
-  <a href="https://github.com/0xCyberLiTech">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=SUPERVISION+AVEC+SMOKEPING;Installation+•+Latence+•+Graphes;Tutoriels+réseaux+sous+Debian" alt="Typing SVG" />
-  </a>
+  >SMOKEPING_ : <div align="center">
   
+    <br></br>
+    <a href="https://github.com/0xCyberLiTech">
+      <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3ESMOKEPING_" alt="Titre dynamique SMOKEPING" />
+    </a>
+    <br></br>
+  </div>
+
   <p align="center">
     <em>Tutos et configurations smokeping.</em><br>
     <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
