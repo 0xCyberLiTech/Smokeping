@@ -47,8 +47,12 @@
 
 ---
 
+```
 /etc/smokeping/config.d/Probes
+```
 
+
+```
 # --------------------------------------------------------------------------
 # 0xCyberLiTech
 # Date de création : le 21-06-2023
@@ -94,3 +98,4 @@ step = 60
 
 # a default for this target-specific variable
 urlformat = http://%host/
+```
