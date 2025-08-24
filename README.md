@@ -13,9 +13,6 @@
     <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
   </p>
 
-  [![🌐 Portfolio](https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square)](https://0xcyberlitech.github.io/)
-  [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
-
   <p align="center">
     <a href="https://0xcyberlitech.github.io/">
       <img src="https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square" alt="🌐 Portfolio" />
