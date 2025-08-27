@@ -8,10 +8,7 @@
   
   <br></br>
 
-  <p align="center">
-    <em>Tutos et configurations smokeping.</em><br>
-    <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
-  </p>
+  <h2>Laboratoire numérique pour la cybersécurité, Linux & IT</h2>
 
   <p align="center">
     <a href="https://0xcyberlitech.github.io/">
