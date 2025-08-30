@@ -76,10 +76,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 | N°  | Fichier                    | Description                               | Lien |
 |-----|--------------------------------|-------------------------------------------|-------|
-| 01  | **Probes**             | Définition des sondes utilisées           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./Probes) |
-| 02  | **Presentation**       | Options d’affichage des résultats         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./Presentation) |
-| 03  | **General**            | Paramètres généraux de SmokePing          | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./General) |
-| 04  | **Targets**            | Cibles à surveiller (IP, hôtes…)          | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](./Targets) |
+| 01  | **Probes**             | Définition des sondes utilisées           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Probes) |
+| 02  | **Presentation**       | Options d’affichage des résultats         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Presentation) |
+| 03  | **General**            | Paramètres généraux de SmokePing          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./General) |
+| 04  | **Targets**            | Cibles à surveiller (IP, hôtes…)          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Targets) |
 
 ---
 
