@@ -64,7 +64,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-## 📁 Sommaire :
+## 📁 **Sommaire**
 
 | N°  | Titre / Fichier                  | Description                              | Lien |
 |-----|----------------------------------|------------------------------------------|-------|
