@@ -33,10 +33,6 @@
 
 </div>
 
-<!--
-Optimisation SEO : mots-clés Smokeping, 0xCyberLiTech, supervision informatique, monitoring, Smokeping, administration système, sécurité informatique, Linux, Debian, tutoriels supervision, guides monitoring, alertes réseau, performance réseau, open source, ressources techniques, IT, professionnels, étudiants, passionnés, gestion d’infrastructure, surveillance réseau, outils de supervision.
--->
-
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/000000/cyber-security.png" alt="CyberSec" width="80"/>
 </div>
@@ -94,3 +90,4 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 <div align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </div>
+
