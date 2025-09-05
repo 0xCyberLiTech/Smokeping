@@ -64,20 +64,20 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ## 📁 **Sommaire**
 
-| N°  | Titre / Fichier                  | Description                              | Lien |
-|-----|----------------------------------|------------------------------------------|-------|
-| 01  | Tuto | Guide d'installation | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./SMOKEPING-installation-et-Configuration.md) |
+| N°  | Titre / Fichier | Description          | Lien                                                                                                                                                      |
+|-----|---- ------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 01  | Tuto            | Guide d'installation | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./SMOKEPING-installation-et-Configuration.md) |
 
 ---
 
 ## 📁 Fichiers de configuration : (`/etc/smokeping/config.d/`)
 
-| N°  | Fichier                    | Description                               | Lien |
-|-----|--------------------------------|-------------------------------------------|-------|
-| 01  | **Probes**             | Définition des sondes utilisées           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Probes) |
-| 02  | **Presentation**       | Options d’affichage des résultats         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Presentation) |
-| 03  | **General**            | Paramètres généraux de SmokePing          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./General) |
-| 04  | **Targets**            | Cibles à surveiller (IP, hôtes…)          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Targets) |
+| N°  | Fichier          | Description                       | Lien                                                                                                                        |
+|-----|------------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 01  | **Probes**       | Définition des sondes utilisées   | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Probes)       |
+| 02  | **Presentation** | Options d’affichage des résultats | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Presentation) |
+| 03  | **General**      | Paramètres généraux de SmokePing  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./General)      |
+| 04  | **Targets**      | Cibles à surveiller (IP, hôtes…)  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Targets)      |
 
 ---
 
