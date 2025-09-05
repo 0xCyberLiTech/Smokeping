@@ -65,7 +65,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ## 📁 **Sommaire**
 
 | N°  | Titre / Fichier | Description          | Lien                                                                                                                                                      |
-|-----|---- ------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----|-----------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01  | Tuto            | Guide d'installation | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./SMOKEPING-installation-et-Configuration.md) |
 
 ---
