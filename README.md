@@ -62,15 +62,33 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ![Smokeping_01](./images/smokeping_01.png)
 
-## 📁 **Sommaire**
+---
+
+<div align="center" style="margin-bottom: 10px;">
+
+### **Sommaire**
+
+🟢 **Actif** – Dépôt totalement accessible  
+🟠 **Partiel** – Dépôt partiellement accessible  
+🔴 **Inactif** – Dépôt inaccessible ou indisponible
+
+</div>
+
+---
+
+<div align="center">
 
 | N°  | Titre / Fichier | Description          | Lien                                                                                                                                                      |
 |-----|-----------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01  | Tuto            | Guide d'installation | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./SMOKEPING-installation-et-Configuration.md) |
 
+</div>
+
 ---
 
-## 📁 Fichiers de configuration : (`/etc/smokeping/config.d/`)
+<div align="center">
+
+Fichiers de configuration : (`/etc/smokeping/config.d/`)
 
 | N°  | Fichier          | Description                       | Lien                                                                                                                        |
 |-----|------------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -78,6 +96,8 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | 02  | **Presentation** | Options d’affichage des résultats | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Presentation) |
 | 03  | **General**      | Paramètres généraux de SmokePing  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./General)      |
 | 04  | **Targets**      | Cibles à surveiller (IP, hôtes…)  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](./Targets)      |
+
+</div>
 
 ---
 
