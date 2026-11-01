@@ -54,6 +54,7 @@ sudo journalctl -u smokeping.service -n 30 --no-hostname
 - **Niveau 2 — Repères Officiels (Ports IANA, Fichiers Debian &amp; Commandes de Validation) :** **Ports & Composants :** `ICMP` (Echo Request/Reply) · `TCP 80/443` (Interface Web Apache2 FastCGI) &nbsp;|&nbsp; **Fichiers Debian :** `/etc/smokeping/config.d/Targets`, `/etc/smokeping/config.d/Probes` &nbsp;|&nbsp; **Validation officielle :** `sudo smokeping --check`.
 - **Niveau 3 — Diagnostic d'Incidents &amp; Ingénierie Avancée :** **Diagnostic & Architecture :** Sur un graphe Smokeping, la courbe centrale indique la latence médiane, sa couleur reflète le nombre de paquets perdus, et l'ombre grise (*Smoke*) représente la **gigue** (dispersion temporelle entre les paquets d'une même salve, critique pour la téléphonie IP et les flux temps réel).
 - **Sources de Vérité Officielles Éditeurs &amp; Standards :** [Documentation Officielle Smokeping (Oetiker)](https://oss.oetiker.ch/smokeping/doc/index.en.html) &nbsp;·&nbsp; [Paquet Officiel Debian Smokeping](https://packages.debian.org/trixie/smokeping)
+- **Livres Blancs &amp; 67 Podcasts Audio R&amp;D :** [Portail 0xCyberLiTech](https://0xcyberlitech.com/) &nbsp;·&nbsp; [Livre Blanc SOC Cockpit v5.5](https://0xcyberlitech.com/soc-rd.html) &nbsp;·&nbsp; [Livre Blanc JARVIS Mark-VII](https://0xcyberlitech.com/jarvis-rd.html) &nbsp;·&nbsp; [Blueprint Logiciel &amp; Matériel RTX 5080](https://0xcyberlitech.com/blueprint-jarvis.html)
 
 </details>
 <!-- CIEL-PEDAGOGY-END -->
